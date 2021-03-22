@@ -9,7 +9,6 @@ const app = express();
 
 mongoose
   .connect(
-    'mongodb+srv://admin:charan123@cluster0.ufseo.mongodb.net/test?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useCreateIndex: true,
